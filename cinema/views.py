@@ -133,13 +133,13 @@ class MovieViewSet(
                 name="genres",
                 description="Filter movies by genre ids",
                 required=False,
-                type=int,
+                type=str,
             ),
             OpenApiParameter(
                 name="actors",
                 description="Filter movies by actor ids",
                 required=False,
-                type=int,
+                type=str,
             ),
         ]
     )
